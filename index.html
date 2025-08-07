@@ -6,6 +6,9 @@
     <title>Impulz 2k24</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/Impulse-removebg-preview-transformed.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -54,7 +57,7 @@
             Your browser does not support the video tag.
         </video>
         <div class="about-content">
-            <h2>About Us</h2>
+            <h2 class="mechanical-accent">About Our Department</h2>
             <p>ꜱɪɴᴄᴇ ɪᴛꜱ ɪɴᴄᴇᴘᴛɪᴏɴ ɪɴ 2011, ᴛʜᴇ ᴅᴇᴘᴀʀᴛᴍᴇɴᴛ ᴏꜰ ᴍᴇᴄʜᴀɴɪᴄᴀʟ ᴇɴɢɪɴᴇᴇʀɪɴɢ ʜᴀꜱ ʙᴇᴇɴ ᴀ ʙᴇᴀᴄᴏɴ ᴏꜰ ᴇxᴄᴇʟʟᴇɴᴄᴇ, ᴇᴀʀɴɪɴɢ ᴘʀᴇꜱᴛɪɢɪᴏᴜꜱ ᴀᴄᴄᴏʟᴀᴅᴇꜱ ᴀʟᴏɴɢ ᴛʜᴇ ᴡᴀʏ. ᴡᴇ ᴘʀᴏᴜᴅʟʏ ʙᴏᴀꜱᴛ ɴʙᴀ ᴀᴄᴄʀᴇᴅɪᴛᴀᴛɪᴏɴ ꜰʀᴏᴍ 2017 ᴛᴏ 2023 ᴀɴᴅ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀꜰꜰɪʟɪᴀᴛɪᴏɴ ꜰʀᴏᴍ ᴀɴɴᴀ ᴜɴɪᴠᴇʀꜱɪᴛʏ ꜱᴛᴀʀᴛɪɴɢ 2021. ᴀꜱ ᴀ ʀᴇᴄᴏɢɴɪᴢᴇᴅ ʀᴇꜱᴇᴀʀᴄʜ ᴄᴇɴᴛᴇʀ ꜱɪɴᴄᴇ 2022, ᴏᴜʀ ᴅᴇᴘᴀʀᴛᴍᴇɴᴛ ɪꜱ ᴀ ʜᴜʙ ᴏꜰ ɪɴɴᴏᴠᴀᴛɪᴏɴ, ʟᴇᴅ ʙʏ ᴀ ᴛᴇᴀᴍ ᴏꜰ ᴅɪꜱᴛɪɴɢᴜɪꜱʜᴇᴅ ꜰᴀᴄᴜʟᴛʏ ᴍᴇᴍʙᴇʀꜱ ᴡʜᴏ ɪɴꜱᴘɪʀᴇ ᴀɴᴅ ᴍᴇɴᴛᴏʀ. ᴛʜʀᴏᴜɢʜᴏᴜᴛ ᴛʜᴇ ʏᴇᴀʀ, ᴡᴇ ʜᴏꜱᴛ ᴀ ᴅʏɴᴀᴍɪᴄ ᴀʀʀᴀʏ ᴏꜰ ᴡᴏʀᴋꜱʜᴏᴘꜱ, ꜱᴇᴍɪɴᴀʀꜱ, ᴀɴᴅ ꜰᴀᴄᴜʟᴛʏ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴘʀᴏɢʀᴀᴍꜱ, ꜰᴏꜱᴛᴇʀɪɴɢ ᴀ ᴄᴜʟᴛᴜʀᴇ ᴏꜰ ᴄᴏɴᴛɪɴᴜᴏᴜꜱ ʟᴇᴀʀɴɪɴɢ ᴀɴᴅ ɢʀᴏᴡᴛʜ ꜰᴏʀ ʙᴏᴛʜ ꜱᴛᴜᴅᴇɴᴛꜱ ᴀɴᴅ ꜰᴀᴄᴜʟᴛʏ.</p>
             <span class="about-close-btn" id="about-close-id" about-data-modal="about-close-modal">&times;</span>
         </div>
@@ -63,18 +66,19 @@
     <!-- Modal HTML and Event details -->
     <div id="event-modal" class="modal">
         <div class="modal-content">
-            <div class="event-box-ig" data-event="ignitedmind"></div>
-            <div class="event-box-pit" data-event="pitstop"><b></b></div>
-            <div class="event-box-pro" data-event="proplez"><b></b></div>
-            <div class="event-box-dra" data-event="draftix"><b></b></div>
-            <div class="event-box-jit" data-event="jitmachinig"><b></b></div>
+            <div class="event-box-ig mechanical-accent" data-event="ignitedmind" data-title="Ignited Minds"></div>
+            <div class="event-box-pit mechanical-accent" data-event="pitstop" data-title="Pitstop"><b></b></div>
+            <div class="event-box-pro mechanical-accent" data-event="proplez" data-title="Propelz"><b></b></div>
+            <div class="event-box-dra mechanical-accent" data-event="draftix" data-title="Draftrix"><b></b></div>
+            <div class="event-box-jit mechanical-accent" data-event="jitmachinig" data-title="JIT Machining"><b></b></div>
+            <span class="close-btn" data-modal="event-modal">&times;</span>
 
             <!-- Modals for event details-->
             <div id="ignitedmind-modal" class="event-modal">
                 <div class="modal-content">
-                    <h1><b><u>IGNITED MINDS</u></b></h1>
+                    <h1 class="mechanical-accent">IGNITED MINDS</h1>
                     <p>A game which can also be called a mind sport wherein the players, either as individuals or in teams attempt to answer questions posed to them correctly, in order to win a prize.</p><br>
-                    <h1><u>RULES</u></h1>
+                    <h2 style="color: var(--accent-blue); margin-top: 30px;">RULES & REGULATIONS</h2>
                     <p>1. TEAM SIZE: MAX. 02 MEMBERS.<br>
                         2. TEAMS FOR FINALS WILL BE SHORTLISTED BASED ON PRELIMS.<br>
                         3. THE QUESTIONS WILL BE IN THE FORM OF MULTIPLE CHOICE, TRUE / FALSE STATEMENT, SPECIFIC ANSWER QUESTION, CONNECTIONS<br>
@@ -86,9 +90,9 @@
 
             <div id="pitstop-modal" class="event-modal">
                 <div class="modal-content">
-                    <h1><b><u>PITSTOP</u></b></h1>
+                    <h1 class="mechanical-accent">PITSTOP</h1>
                     <p>A tool that can disassemble executables to the extent that the generated code can be assembled back to working binaries with manual effort.</p><br>
-                    <h1><u>RULES</u></h1>
+                    <h2 style="color: var(--accent-blue); margin-top: 30px;">RULES & REGULATIONS</h2>
                     <p>1. INDIVIDUAL EVENT.</br>
                         2. ASSEMBLY AND DISASSEMBLY OF AUTOMOTIVE COMPONENTS.</br>
                         3. PRELIMS WILL BE CONDUCTED.</br>
@@ -100,9 +104,9 @@
 
             <div id="proplez-modal" class="event-modal">
                 <div class="modal-content">
-                    <h1><b><u>PROPELZ</u></b></h1>
+                    <h1 class="mechanical-accent">PROPELZ</h1>
                     <p>Design and build a water rocket within the specified dimensions robust enough to withstand the pressure and when launched from the launch pad achieves the maximum altitude above ground level.</p><br>
-                    <h1><u>RULES</u></h1>
+                    <h2 style="color: var(--accent-blue); margin-top: 30px;">RULES & REGULATIONS</h2>
                     <p>1. TEAM SIZE: MAX. 02 MEMBERS.<br>
                         2. ONLY SINGLE STAGE ROCKETS ARE ALLOWED. (MAXIMUM 55CM,2.5L).<br>
                         3. PRESSURE: 45-50 PSI.<br>
@@ -115,9 +119,9 @@
 
             <div id="draftix-modal" class="event-modal">
                 <div class="modal-content">
-                    <h1><b><u>DRAFTRIX</u></b></h1>
+                    <h1 class="mechanical-accent">DRAFTRIX</h1>
                     <p>A technology that engineers, product developers and designers use to create functional, virtual prototypes of three-dimensional objects.</p><br>
-                    <h1><u>RULES</u></h1>
+                    <h2 style="color: var(--accent-blue); margin-top: 30px;">RULES & REGULATIONS</h2>
                     <p>1. INDIVIDUAL EVENT.<br>
                         2. PRELIMS WILL BE CONDUCTED.<br>
                         3. SOFTWARE PROVIDED : SOLIDWORKS.<br>
@@ -128,9 +132,9 @@
 
             <div id="jitmachinig-modal" class="event-modal">
                 <div class="modal-content">
-                    <h1><b><u>JIT MACHINING</u></b></h1>
+                    <h1 class="mechanical-accent">JIT MACHINING</h1>
                     <p>A prototyping and manufacturing process that creates the desired shape by removing unwanted material from a larger piece of material.</p><br>
-                    <h1><u>RULES</u></h1>
+                    <h2 style="color: var(--accent-blue); margin-top: 30px;">RULES & REGULATIONS</h2>
                     <p>1. INDIVIDUAL EVENT.<br>
                         2. PRELIMS WILL BE CONDUCTED.<br>
                         3. RAW MATERIALS AND LATHE WILL BE PROVIDED.<br>
@@ -153,10 +157,10 @@
             Your browser does not support the video tag.
         </video>
         <div class="contact-content">
-            <h2>Contact</h2>
+            <h2 class="mechanical-accent">Get In Touch</h2>
         <div class="contact-sections">
             <div class="contact-left">
-                <h3>STUDENT COORDINATOR</h3>
+                <h3 class="mechanical-accent">STUDENT COORDINATORS</h3>
                 <h4><a href="tel:+918807924350" title="+918807924350"><b>📞Janakan.S</b></a></h4>
                 <h4><a href="tel:+917010563685" title="+917010563685"><b>📞Ilamaran.K.N</b></a></h4>
                 <h4><a href="tel:+919751460004" title="+919751460004"><b>📞Barath.G</b></a></h4>
@@ -164,13 +168,13 @@
                 
             </div>
             <div class="contact-center">
-                <h3>STAFF COORDINATOR</h3>
+                <h3 class="mechanical-accent">STAFF COORDINATORS</h3>
                 <h4><a href="tel:+919498008272" title="+919498008272"><b>📞Mr.R.Ranjith Kumar</b></a></h4>
                 <h4><a href="tel:+919566045244" title="+919566045244"><b>📞Mr.A.Sathish Kumar</b></a></h4>
                 <h4></h4><h4></h4><h4></h4><h4></h4><h4></h4>
             </div>
             <div class="contact-right">
-                <h3>FOR QUERIES</h3>
+                <h3 class="mechanical-accent">GENERAL QUERIES</h3>
                 <h4><a href="tel:+917305457985" title="+917305457985"><b>📞Ajith.V.S</b></a></h4>
                 <h4><a href="tel:+919499008742" title="+919499008742"><b>📞Pushpendra Banjare</b></a></h4>
                 <h4></h4><h4></h4><h4></h4><h4></h4><h4></h4><h4></h4><h4></h4>
